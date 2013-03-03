@@ -1,0 +1,7 @@
+# See:
+# http://vagrantup.com/docs/base_boxes.html
+# http://vagrantup.com/docs/vagrantfile.html
+Vagrant::Config.run do |config|
+    # username to connect the vm with
+    config.ssh.username = "ladmin"
+end
