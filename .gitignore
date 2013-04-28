@@ -1,1 +1,8 @@
 *.box
+.*.swp
+.ruby-version
+.rbenv-gemsets
+.bundle
+bin
+vendor
+Gemfile.lock
