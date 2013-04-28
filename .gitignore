@@ -4,5 +4,6 @@
 .rbenv-gemsets
 .bundle
 bin
+iso/*
 vendor
 Gemfile.lock
