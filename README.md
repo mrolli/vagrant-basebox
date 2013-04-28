@@ -38,9 +38,9 @@ Make sure <box_name> follows the convention:
     <osdistro>-<derivative>-<version>-<arch>-<virtual-type>-<variant>
 
     * osdistro: for example: centos, ubuntu, windows
-    * derivative: (optiona) server, desktop
+    * derivative: (optional) server, desktop
     * version: 8, 2008, 1104
-    * arch: x64, i386
+    * arch: amd64, i386
     * virtual-type: type & version. For example: vbox4210, fusion503
     * variant (optional):
     * nocm: designates no configuration management tools were loaded
