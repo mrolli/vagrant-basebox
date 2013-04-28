@@ -23,11 +23,10 @@ echo -e $DISTRIB_DESCRIPTION >> /etc/vagrant_box_build
 echo -e "VirtualBox "$VBOX_VERSION >> /etc/vagrant_box_build
 
 # Apt-install various things necessary for Ruby, guest additions,
-# etc., and remove optional things to trim down the machine.
+# etc.
 apt-get -y update
 apt-get -y dist-upgrade
 apt-get -y install linux-headers-$(uname -r) build-essential
-#apt-get -y install zlib1g-dev libssl-dev libreadline-gplv2-dev
 
 # Getting rid of vim-tiny
 apt-get -y install vim
@@ -84,11 +83,8 @@ wget --no-check-certificate 'https://raw.github.com/mitchellh/vagrant/master/key
 chmod 600 /home/ladmin/.ssh/authorized_keys
 chown -R ladmin /home/ladmin/.ssh
 
-# Remove items used for building, since they aren't needed anymore
-apt-get -y --purge remove linux-headers-$(uname -r) build-essential
-apt-get -y --purge autoremove
-
 # Cleanup diskspace
+apt-get -y --purge autoremove
 apt-get clean
 rm -rf /tmp/*
 
