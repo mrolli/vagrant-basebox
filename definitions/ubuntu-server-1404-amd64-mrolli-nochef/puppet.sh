@@ -1,4 +1,7 @@
-GEM=/opt/ruby/bin/gem
+# Prepare puppetlabs repo
+wget http://apt.puppetlabs.com/puppetlabs-release-precise.deb
+dpkg -i puppetlabs-release-precise.deb
+apt-get update
 
-adduser --system --group --home /var/lib/puppet puppet
-$GEM install puppet --no-ri --no-rdoc
+# Install puppet/facter
+apt-get install -y puppet facter
