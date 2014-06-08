@@ -1,3 +1,10 @@
+ABANDONED REPOSITORY!
+
+While the need and the goal are still the same for mee, I'm now using [Packer](http://packer.io) too. Nevertheless
+this repo will still be available for a while
+
+---
+
 This repository contains definitions and files necessary for recreating vagrant base boxes. They are primary for my personal use but you might find them usefull too though. This repo is heavily influenced by <https://raw.github.com/puppetlabs/puppet-vagrant-boxes/>. Feel free and use it.
 
 The primary goal is to create boxes that have very little specialisation at this level, the standard veewee templates should be very rarely modified to keep it simple, and even then bug fix should always be feed back to upstream (ie. VeeWee). This holds for any bugs we find in the templates, and any new templates that are required. In short my goal here is not to fork VeeWee templates, but to provide a snapshot of the template at box build/publish time in manner that's useful for me.
