@@ -1,7 +1,9 @@
 ABANDONED REPOSITORY!
 
-While the need and the goal are still the same for mee, I'm now using [Packer](http://packer.io) too. Nevertheless
-this repo will still be available for a while
+While the need and the goal are still the same for me, I'm now using [Packer](http://packer.io) too. Nevertheless
+this repo will still be available for a while.
+
+And finally, Kudos to jedi4ever for veewee, which was a great companion up until now.
 
 ---
 
